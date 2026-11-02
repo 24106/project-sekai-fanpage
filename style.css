@@ -109,3 +109,25 @@ button { font: inherit; }
 .back-top { font-size: 12px; color: #e6c5fa; font-weight: 800; }
 .footer-bottom { border-top: 1px solid #45415d; padding-top: 17px; display: flex; justify-content: space-between; gap: 20px; color: #aaa6bc; font-size: 10px; }
 
+/* game page */
+.page-hero { padding: 75px clamp(22px, 8vw, 120px); display: grid; grid-template-columns: 1fr .8fr; align-items: center; gap: 7vw; min-height: 390px; }
+.page-hero h1 { font-size: clamp(44px, 5.5vw, 70px); }
+.page-hero-art { height: 260px; }
+.page-hero-art img { padding-top: -20px; width: 500px; }
+.page-hero-pink { background: linear-gradient(120deg, #fff0f6, #f6f0ff); }
+
+.narrow-copy { max-width: 950px; }
+.narrow-copy h2 { font: 800 38px 'Outift'; margin: 0 0 10px; }
+
+.steps-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+.step-card { background: var(---white); border: 1px solid var(--line); padding: 22px; border-radius: 20px; position: relative; box-shadow: 0 8px 25px #46336b08; }
+.step-card > span { font: 800 11px 'Outfit'; color: #c1a2df; }
+.step-icon { font-size: 30px; color: #a778d5; margin: 16px 0; }
+.step-card h3 { font: 800 18px 'Outfit'; margin: 0; }
+.step-card p { font-size: 12px; color: var(--muted); }
+
+.fact-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.fact { background: var(---white); border: 1px solid var(--line); border-radius: 15px; padding: 20px; }
+.fact b { display: block; color: #ad7bcc; font-size: 10px; letter-spacing: .16em; }
+.fact strong { font: 800 15px 'Outfit'; display: block; margin-top: 8px; }
+
