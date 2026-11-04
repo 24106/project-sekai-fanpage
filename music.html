@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project SEKAI Fanpage | Music</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="brand-mark">♪</span><span>SEKAI<span class="brand-light"> FANPAGE</span></span>
+        </a>
+        <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="game.html">The Game</a>
+            <a href="characters.html">Characters</a>
+            <a class="active" href="music.html">Music</a>
+            <a href="worlds.html">Sekai Worlds</a>
+            <a href="events.html">Events</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="page-hero page-hero-purple">
+            <div>
+                <p class="eyebrow">03 / THE SOUNDTRACK</p>
+                <h1>Every story has<br><span class="gradient-text">a soundtrack.</span></h1>
+                <p class="hero-lede">From Vocaloid classics to commissioned songs, music is at the heart of Project SEKAI.</p>
+            </div>
+
+            <div class="page-hero-art">
+                <img src="images/music-1.jpg" alt="Hatsune Miku music image">
+            </div>
+        </section>
+
+        <section class="section-wrap">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">MUSIC LIBRARY</p>
+                    <h2>Explore the <span class="gradient-text">sound.</span></h2>
+                </div>
+                <p class="section-intro">
+                    Use the filters to browse example song types. 
+                    Add your own favourite tracks and notes.
+                </p>
+            </div>
+
+            <div class="filter-bar" role="group" aria-label="Filter song types">
+                <button class="filter-button active" data-filter="all">All groups</button>
+                <button class="filter-button" data-filter="leo/need">Leo/need</button>
+                <button class="filter-button" data-filter="more-more-jump">MORE MORE JUMP!</button>
+                <button class="filter-button" data-filter="vivid-bad-squad">Vivid BAD SQUAD</button>
+                <button class="filter-button" data-filter="wonderlands-x-showtime">Wonderlands x Showtime</button>
+                <button class="filter-button" data-filter="nightcord-at-25">Nightcord at 25:00</button>
+                <button class="filter-button" data-filter="virtual-singer">VIRTUAL SINGER</button>
+            </div>
+
+            <div class="song-grid">
+                <article class="song-card" data-category="vivid-bad-squad">
+                    <div class="song-cover">
+                        <img src="images/song-20.jpg" alt="BRING IT ON song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Vivid BAD SQUAD</span>
+                        <h3>BRING IT ON</h3>
+                        <p>Giga</p>
+                        <p>Kagamine Rin, Kagamine Len, Kohane Azusawa, An Shiraishi</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-1.jpeg" alt="Miku song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>Miku</h3>
+                        <p>Anamanaguchi</p>
+                        <p>Hatsune Miku</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-2.webp" alt="39Music! song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>39Music!</h3>
+                        <p>mikitoP</p>
+                        <p>Hatsune Miku</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-3.webp" alt="Even so, It's OK song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>Even so, It's OK</h3>
+                        <p>Ponchi ♪</p>
+                        <p>Hatsune Miku</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="vivid-bad-squad">
+                    <div class="song-cover">
+                        <img src="images/song-21.webp" alt="Retained Supplanting His Lord song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Vivid BAD SQUAD</span>
+                        <h3>Retainer Supplanting His Lord</h3>
+                        <p>Misumi</p>
+                        <p>An Shiraishi, Kagamine Rin, Kohane Azusawa, Akito Shinonome, Toya Aoyagi</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-4.webp" alt="Hello Builder song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>Hello Builder</h3>
+                        <p>Utsu-P</p>
+                        <p>Hatsune Miku</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-5.webp" alt="Afterglow song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>Afterglow</h3>
+                        <p>Jimmythumb P</p>
+                        <p>Megurine Luka</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-6.webp" alt="Becoming Pigs Yeah Yeah song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>Becoming Pigs Yeah Yeah</h3>
+                        <p>Neru</p>
+                        <p>Kagamine Len</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-7.jpg" alt="Getting Faster and Faster song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>Getting Faster and Faster</h3>
+                        <p>40mP</p>
+                        <p>Hatsune Miku</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="vivid-bad-squad">
+                    <div class="song-cover">
+                        <img src="images/song-22.webp" alt="Blazing song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Vivid BAD SQUAD</span>
+                        <h3>Blazing</h3>
+                        <p>niki</p>
+                        <p>An Shiraishi, Megurine Luka, Kohane Azusawa, Akito Shinonome, Toya Aoyagi</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-8.jpg" alt="Young Girl A song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>Young Girl A</h3>
+                        <p>siinamota</p>
+                        <p>Kagamine Rin</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="leo/need">
+                    <div class="song-cover">
+                        <img src="images/song-9.webp" alt="ROKI song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Leo/need</span>
+                        <h3>ROKI</h3>
+                        <p>mikitoP</p>
+                        <p>Hatsune Miku, Ichika Hoshino</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="leo/need">
+                    <div class="song-cover">
+                        <img src="images/song-10.jpeg" alt="Weight anchor song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Leo/need</span>
+                        <h3>Weigh anchor</h3>
+                        <p>Nanahoshi Orchestra</p>
+                        <p>Megurine Luka, Ichika Hoshino, Saki Tenma, Honami Mochizuki, Shiho Hinomori</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="wonderlands-x-showtime">
+                    <div class="song-cover">
+                        <img src="images/song-23.webp" alt="Sweet Magic song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Wonderlands x Showtime</span>
+                        <h3>Sweet Magic</h3>
+                        <p>Junky</p>
+                        <p>Kagamine Rin, Tsukasa Tenma, Emu Otori, Nene Kusanahi, Rui Kamishiro</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="more-more-jump">
+                    <div class="song-cover">
+                        <img src="images/song-11.webp" alt="Kyu-kurarin song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">MORE MORE JUMP!</span>
+                        <h3>Kyu-kurarin</h3>
+                        <p>Iyowa</p>
+                        <p>MEIKO, Minori Hanasato, Haruka Kiritani, Airi Momoi, Shizuku Hinomori</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="nightcord-at-25">
+                    <div class="song-cover">
+                        <img src="images/song-12.webp" alt="Love Me, Love Me, Love Me song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Nightcord at 25:00</span>
+                        <h3>Love Me, Love Me, Love Me</h3>
+                        <p>Kikuo</p>
+                        <p>Hatsune Miku, Mafuyu Asahina, Ena Shinonome</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="wonderlands-x-showtime">
+                    <div class="song-cover">
+                        <img src="images/song-24.webp" alt="This Silly Wonderful World Exists For Me song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Wonderlands x Showtime</span>
+                        <h3>This Silly Wonderful World Exists For Me</h3>
+                        <p>n.k</p>
+                        <p>MEIKO, Tsukasa Tenma, Emu Otori, Nene Kusanahi, Rui Kamishiro</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="nightcord-at-25">
+                    <div class="song-cover">
+                        <img src="images/song-13.jpg" alt="Bad Apple!! feat.SEKAI song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Nightcord at 25:00</span>
+                        <h3>Bad Apple!! feat.SEKAI</h3>
+                        <p>beatMARIO x MARON x marasy</p>
+                        <p>Hatsune Miku, Kanade Yoisaki, Mafuyu Asahina, Ena Shinonome, Mizuki Akiyama</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="virtual-singer">
+                    <div class="song-cover">
+                        <img src="images/song-14.jpg" alt="The Future of Beginning song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">VIRTUAL SINGER</span>
+                        <h3>The Future of Beginning</h3>
+                        <p>40mP x sasakure.UK</p>
+                        <p>Hatsune Miku</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="more-more-jump">
+                    <div class="song-cover">
+                        <img src="images/song-18.webp" alt="MORE! JUMP! MORE! song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">MORE MORE JUMP!</span>
+                        <h3>MORE! JUMP! MORE!</h3>
+                        <p>NayatalieN</p>
+                        <p>Airi Momoi, Hatsune Miku, Minori Hanasata, Haruka Kiritani, Shizuku Hinomori</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="leo/need">
+                    <div class="song-cover">
+                        <img src="images/song-15.webp" alt="SHOW OFF song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Leo/need</span>
+                        <h3>SHOW OFF</h3>
+                        <p>WADATAKEAKI</p>
+                        <p>Saki Tenma, Hatsune Miku, Ichika Hoshino, Honami Mochizuki, Shiho Hinomori</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="wonderlands-x-showtime">
+                    <div class="song-cover">
+                        <img src="images/song-16.webp" alt="SEIBAIITAAAAASU! song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Wonderlands x Showtime</span>
+                        <h3>SEIBAIITAAAAASU!</h3>
+                        <p>Wonderful★Opportunity!</p>
+                        <p>Tsukasa Tenma, Megurine Luka, Emu Otori, Nene Kusanahi, Rui Kamishiro</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="nightcord-at-25">
+                    <div class="song-cover">
+                        <img src="images/song-17.webp" alt="Journey song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">Nightcord at 25:00</span>
+                        <h3>Journey</h3>
+                        <p>DECO*27</p>
+                        <p>Ichika Hoshino, Minori Hanasato, Kohane Azusawa, Tsukasa Tenma, Kanade Yoisaki, Hatsune Miku</p>
+                    </div>
+                </article>
+                <article class="song-card" data-category="more-more-jump">
+                    <div class="song-cover">
+                        <img src="images/song-19.webp" alt="Our True Story song cover">
+                    </div>
+                    <div class="song-details">
+                        <span class="song-type">MORE MORE JUMP!</span>
+                        <h3>Our True Story</h3>
+                        <p>Noboru</p>
+                        <p>Minori Hanasato, KAITO, Haruka Kiritani, Airi Momoi, Shizuku Hinomori</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <a class="brand" href="index.html"><span class="brand-mark">♪</span><span>SEKAI<span class="brand-light"> FANPAGE</span></span></a>
+            <p>A fan-made guide for curious Project SEKAI players.</p>
+            <a class="back-top" href="#main">Back to top ↑</a>
+        </div>
+        <div class="footer-bottom">
+            <span>Unofficial fan project · Not affiliated with SEGA, Colourful Palette or Crypton Future Media</span>
+            <span>Made in Christchurch, NZ</span>
+        </div>
+    </footer>
+</body>
+</html>
