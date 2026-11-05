@@ -71,7 +71,7 @@ button { font: inherit; }
 
 .section-wrap { padding: 85px clamp(22px, 8vw, 120px); }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 35px; }
-.section-heading h2 { font: 800 clamp(32px, 4vw, 48px)/1.1 'Outfit'; letter-spacing: -.04em; margin: 0; }
+.section-heading h2, .split-callout h2, .singer-band h2 { font: 800 clamp(32px, 4vw, 48px)/1.1 'Outfit'; letter-spacing: -.04em; margin: 0; }
 .section-intro { max-width: 360px; color: var(--muted); font-size: 14px; margin: 0 0 4px; }
 
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
@@ -201,3 +201,47 @@ button { font: inherit; }
 .fan-corner h3 { font: 800 18px 'Outift'; margin: 10px 0 4px; }
 .fan-corner p { font-size: 12px; color: var(--muted); margin: 0; }
 
+/* responsive design */
+@media (max-width: 900px) {
+    .main-nav { gap: 12px; }
+    .main-nav a { font-size: 11px; }
+    .hero { padding-left: 5vw; padding-right: 5vw; }
+    .section-wrap { padding-left: 5vw; padding-right: 5vw; }
+    .page-hero { padding-left: 5vw; padding-right: 5vw; }
+    .feature-grid { grid-template-columns: repeat(2, 1fr); }
+    .unit-grid { grid-template-columns: 1fr; }
+    .steps-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 680px) {
+    .site-header { height: 68px; }
+    .menu-toggle { display: block; }
+    .main-nav { 
+        display: none; position: absolute; top: 68px; left: 0; right: 0; background: var(---white); padding: 15px 22px 22px; 
+        box-shadow: 0 15px 25px #31234b15; flex-direction: column; align-items: stretch; gap: 0; 
+    }
+    .main-nav.open { display: flex; }
+    .main-nav a { padding: 11px 0; font-size: 13px; }
+    .main-nav a.active:after { display: none; }
+    .hero, .page-hero { grid-template-columns: 1fr; padding-top: 55px; padding-bottom: 55px; }
+    .hero-art { min-height: 280px; }
+    .hero-photo { min-height: 260px; }
+    .orbit-one { width: 320px; height: 320px; }
+    .orbit-two { width: 360px; height: 260px; }
+    .page-hero-art { height: 210px; min-height: 210px; }
+    .section-heading { display: block; }
+    .section-intro { margin-top: 13px; }
+    .feature-grid, .song-grid, .world-grid, .card-gallery, .fan-corner { grid-template-columns: 1fr; }
+    .feature-card { min-height: 190px; }
+    .split-callout, .singer-band, .event-layout { grid-template-columns: 1fr; }
+    .split-image { min-height: 230px; }
+    .steps-grid, .fact-grid { grid-template-columns: repeat(2, 1fr); }
+    .unit-card { grid-template-columns: 1fr; }
+    .unit-photo { min-height: 180px; }
+    .unit-info { padding: 8px 20px 20px; }
+    .footer-top, .footer-bottom { align-items: flex-start; flex-direction: column; gap: 8px; }
+    .collect-image { height: 330px; min-height: 310px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *:before, *:after { transition: none !important; }
+}
