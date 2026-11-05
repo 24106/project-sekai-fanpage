@@ -169,6 +169,22 @@ button { font: inherit; }
 .song-details p { font-size: 12px; color: var(--muted); margin: 3px 0; }
 .song-card[hidden] { display: none; }
 
+/* worlds page */
+.page-hero-teal { background: linear-gradient(120deg, #e5fbf6, #eff7ff); }
+
+.world-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.world-card { background: var(---white); border: 1px solid var(--line); border-radius: 22px; overflow: hidden; }
+.world-image { height: 210px; padding: 12px; min-height: 185px; }
+.world-content { padding: 6px 22px 22px; }
+.world-index { font-size: 9px; font-weight: 900; letter-spacing: .15em; color: #a47ac9; }
+.world-content h3 { font: 800 22px 'Outift'; margin: 6px 0; }
+.world-content p { font-size: 13px; color: var(--muted); margin: 0; }
+
+
+
+
+
+
 .music-feature { background: linear-gradient(120deg, #fff0f6, #f0eaff); display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 5vw; }
 .feature-record { display: flex; align-items: center; justify-content: center; gap: 20px; }
 .record { width: 210px; height: 210px; border-radius: 50%; background: repeating-radial-gradient(circle, #24233c 0 3px, #383650 4px 5px); display: grid; place-items: center; box-shadow: 0 20px 35px #28223b33; }
