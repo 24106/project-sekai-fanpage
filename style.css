@@ -158,10 +158,11 @@ button { font: inherit; }
 .filter-button { border: 1px solid var(--line); background: var(---white); border-radius: 30px; padding: 9px 16px; font-size: 11px; font-weight: 900; color: #827b98; cursor: pointer; }
 .filter-button.active, .filter-button:hover { background: #9c7be4; color: var(---white); border-color: #9c7be4; }
 
-.song-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
+.song-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 17px; }
 .song-card { background: var(---white); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; transition: .2s; }
 .song-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
-.song-cover { height: 190px; padding: 10px; min-height: 170px; }
+.song-cover { height: 275px; padding: 10px; min-height: 170px; }
+.song-cover img { width: 267px; border-radius: 10px; }
 .song-details { padding: 10px 17px 18px; }
 .song-type { font-size: 9px; letter-spacing: .15em; color: #a478ca; font-weight: 900; }
 .song-details h3 { font: 800 19px 'Outfit'; margin: 5px 0 0; }
