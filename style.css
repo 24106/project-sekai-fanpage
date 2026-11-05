@@ -150,3 +150,28 @@ button { font: inherit; }
 
 .singer-band { background: #f2edff; display: grid; grid-template-columns: 1fr 1fr; gap: 7vw; align-items: center; }
 .singer-photo { min-height: 250px; }
+
+/* music page */
+.page-hero-purple { background: linear-gradient(120deg, #f0eaff, #fff0f7); }
+
+.filter-bar { display: flex; gap: 9px; flex-wrap: wrap; margin-bottom: 24px; }
+.filter-button { border: 1px solid var(--line); background: var(---white); border-radius: 30px; padding: 9px 16px; font-size: 11px; font-weight: 900; color: #827b98; cursor: pointer; }
+.filter-button.active, .filter-button:hover { background: #9c7be4; color: var(---white); border-color: #9c7be4; }
+
+.song-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
+.song-card { background: var(---white); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; transition: .2s; }
+.song-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.song-cover { height: 190px; padding: 10px; min-height: 170px; }
+.song-details { padding: 10px 17px 18px; }
+.song-type { font-size: 9px; letter-spacing: .15em; color: #a478ca; font-weight: 900; }
+.song-details h3 { font: 800 19px 'Outfit'; margin: 5px 0 0; }
+.song-details p { font-size: 12px; color: var(--muted); margin: 3px 0; }
+.song-card[hidden] { display: none; }
+
+.music-feature { background: linear-gradient(120deg, #fff0f6, #f0eaff); display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 5vw; }
+.feature-record { display: flex; align-items: center; justify-content: center; gap: 20px; }
+.record { width: 210px; height: 210px; border-radius: 50%; background: repeating-radial-gradient(circle, #24233c 0 3px, #383650 4px 5px); display: grid; place-items: center; box-shadow: 0 20px 35px #28223b33; }
+.record span { width: 75px; height: 75px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, #fa83b6, #a68af0); color: var(---white); font-size: 30px; }
+.record-caption { font-size: 10px; letter-spacing: .15em; color: #9d83bc; line-height: 2; }
+.record-caption b { font: 800 15px 'Outfit'; color: var(--ink); }
+
