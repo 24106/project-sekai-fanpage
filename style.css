@@ -113,7 +113,7 @@ button { font: inherit; }
 .page-hero { padding: 75px clamp(22px, 8vw, 120px); display: grid; grid-template-columns: 1fr .8fr; align-items: center; gap: 7vw; min-height: 390px; }
 .page-hero h1 { font-size: clamp(44px, 5.5vw, 70px); }
 .page-hero-art { height: 260px; }
-.page-hero-art img { padding-top: -20px; height: 300px; border-radius: 20px; }
+.page-hero-art img { margin-top: 30px; border-radius: 20px; width: 600px; }
 .page-hero-pink { background: linear-gradient(120deg, #fff0f6, #f6f0ff); }
 
 .narrow-copy { max-width: 950px; }
@@ -172,7 +172,7 @@ button { font: inherit; }
 .song-card[hidden] { display: none; }
 
 /* worlds page */
-.page-hero-teal { background: linear-gradient(120deg, #e5fbf6, #eff7ff); }
+.page-hero-green { background: linear-gradient(120deg, #e7fbe5, #effff0); }
 
 .world-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 .world-card { background: var(---white); border: 1px solid var(--line); border-radius: 22px; overflow: hidden; }
